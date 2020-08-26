@@ -1,0 +1,120 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*nav bar*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  min-height:7vh;
+  background-color: #332e3a;
+  font-family: 'Girassol', cursive;
+}
+
+.logo{
+color:rgb(233, 233, 233);
+text-transform: uppercase;
+letter-spacing: 5px;
+font-size:22px;
+margin-left: 20px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width:30%
+}
+
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color:rgb(233, 233, 233);
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+  transition-timing-function: ease;
+}
+
+.nav-links li:hover{
+  transition: ease;
+  transition-duration: .4s;
+  transform: scale(1.1);
+}
+
+.burger{
+  display:none;
+}
+.burger div{
+  width:27px;
+  height: 3px;
+  background-color: rgb(240, 240, 240);
+  margin: 5px;
+}
+nav .current{
+  color: rgb(179, 179, 179);
+}
+
+/*Display*/
+
+.display{
+  background: url(../images/showcase.jpeg);
+  min-height: 60vh;
+}
+
+.display h1{
+  font-size: 50px;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+
+
+
+/*body{
+  margin: 0px;
+}
+header{
+  text-align: justify;
+  letter-spacing: 1px;
+  height: 8em;
+  padding: 2em 10%;
+  background: #2c3e50;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+}
+header h1, header nav{
+  display: inline-block;
+}
+header::after{
+  content:' ';
+  display: inline-block;
+  width:100%;
+}
+header h1{
+  height: 100%;
+}*/
+
+/*body{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  background-color: aqua;
+  overflow: hidden:
+  font-size: 23px;
+  font-family: 'Alata', sans-serif;;
+}
+#brand{
+  float: left;
+  padding-top: -90px;
+}
+header li{
+  list-style-type: none;
+  float: right;
+}*/
